@@ -1,0 +1,266 @@
+﻿{
+  "Courses": [
+    {
+      "CourseId": 1,
+      "CourseName": "Write Your First Code Using C#",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 1,
+          "ModuleName": "Write Your First C# Code",
+          "Status": 3
+        },
+        {
+          "ModuleId": 2,
+          "ModuleName": "Store and Retrieve Data Using Literal and Variable Values in C#",
+          "Status": 2
+        },
+        {
+          "ModuleId": 3,
+          "ModuleName": "Perform Basic String Formatting in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 4,
+          "ModuleName": "Perform Basic Operations on Numbers in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 5,
+          "ModuleName": "Guided Project - Calculate and Print Student Grades",
+          "Status": 1
+        },
+        {
+          "ModuleId": 6,
+          "ModuleName": "Guided Project - Calculate Final GPA",
+          "Status": 1
+        },
+        {
+          "ModuleId": 7,
+          "ModuleName": "Trophy - Write Your First Code Using C#",
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "CourseId": 2,
+      "CourseName": "Create and Run Simple C# Console Applications",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 8,
+          "ModuleName": "Install and Configure Visual Studio Code",
+          "Status": 1
+        },
+        {
+          "ModuleId": 9,
+          "ModuleName": "Call Methods From the .NET Class Library Using C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 10,
+          "ModuleName": "Add Decision Logic to Your Code Using if, else, and else if statements in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 11,
+          "ModuleName": "Store and Iterate Through Sequences of Data Using Arrays and the foreach Statement in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 12,
+          "ModuleName": "Create Readable Code with Conventions, Whitespace, and Comments in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 13,
+          "ModuleName": "Guided Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 14,
+          "ModuleName": "Challenge Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 15,
+          "ModuleName": "Trophy - Create and Run Simple C# Console Applications",
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "CourseId": 3,
+      "CourseName": "Add Logic to C# Console Applications",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 16,
+          "ModuleName": "Evaluate Boolean Expressions to Make Decisions in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 17,
+          "ModuleName": "Control Variable Scope and Logic Using Code Blocks in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 18,
+          "ModuleName": "Branch the Flow of Code Using the switch-case Construct in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 19,
+          "ModuleName": "Iterate Through a Code Block Using the for Statement in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 20,
+          "ModuleName": "Add Looping Logic to Your Code Using the do-while and while Statements in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 21,
+          "ModuleName": "Guided Project - Develop Conditional Branching and Looping Structures in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 22,
+          "ModuleName": "Challenge Project - Develop Branching and Looping Structures in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 23,
+          "ModuleName": "Trophy - Add Logic to C# Console Applications",
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "CourseId": 4,
+      "CourseName": "Work with Variable Data in C# Console Applications",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 24,
+          "ModuleName": "Choose the Correct Data Type in Your C# Code",
+          "Status": 1
+        },
+        {
+          "ModuleId": 25,
+          "ModuleName": "Convert Data Types Using Casting and Conversion Techniques in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 26,
+          "ModuleName": "Perform Operations on Arrays Using Helper Methods in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 27,
+          "ModuleName": "Format Alphanumeric Data for Presentation in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 28,
+          "ModuleName": "Modify the Content of Strings Using Built-In String Data Type Methods in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 29,
+          "ModuleName": "Guided Project - Work with Variable Data in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 30,
+          "ModuleName": "Challenge Project - Work with Variable Data in C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 31,
+          "ModuleName": "Trophy - Work with Variable Data in C# Console Applications",
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "CourseId": 5,
+      "CourseName": "Create Methods in C# Console Applications",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 32,
+          "ModuleName": "Write Your First C# Method",
+          "Status": 1
+        },
+        {
+          "ModuleId": 33,
+          "ModuleName": "Create C# Methods with Parameters",
+          "Status": 1
+        },
+        {
+          "ModuleId": 34,
+          "ModuleName": "Create C# Methods that Return Values",
+          "Status": 1
+        },
+        {
+          "ModuleId": 35,
+          "ModuleName": "Guided Project - Plan a Petting Zoo Visit",
+          "Status": 1
+        },
+        {
+          "ModuleId": 36,
+          "ModuleName": "Challenge Project - Create a Mini-Game",
+          "Status": 1
+        },
+        {
+          "ModuleId": 37,
+          "ModuleName": "Trophy - Create Methods in C# Console Applications",
+          "Status": 1
+        }
+      ]
+    },
+    {
+      "CourseId": 6,
+      "CourseName": "Debug C# Console Applications",
+      "Status": 1,
+      "Modules": [
+        {
+          "ModuleId": 38,
+          "ModuleName": "Review the Principles of Code Debugging and Exception Handling",
+          "Status": 1
+        },
+        {
+          "ModuleId": 39,
+          "ModuleName": "Implement the Visual Studio Code Debugging Tools for C#",
+          "Status": 1
+        },
+        {
+          "ModuleId": 40,
+          "ModuleName": "Implement Exception Handling in C# Console Applications",
+          "Status": 1
+        },
+        {
+          "ModuleId": 41,
+          "ModuleName": "Create and Throw Exceptions in C# Console Applications",
+          "Status": 1
+        },
+        {
+          "ModuleId": 42,
+          "ModuleName": "Guided Project - Debug and Handle Exceptions in a C# Console Application Using Visual Studio Code",
+          "Status": 1
+        },
+        {
+          "ModuleId": 43,
+          "ModuleName": "Challenge Project - Debug a C# Console Application Using Visual Studio Code",
+          "Status": 1
+        },
+        {
+          "ModuleId": 44,
+          "ModuleName": "Trophy - Debug C# Console Applications",
+          "Status": 1
+        }
+      ]
+    }
+  ]
+}

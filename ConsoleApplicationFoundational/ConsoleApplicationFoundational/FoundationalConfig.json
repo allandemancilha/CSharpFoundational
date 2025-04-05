@@ -13,17 +13,17 @@
         {
           "ModuleId": 2,
           "ModuleName": "Store and Retrieve Data Using Literal and Variable Values in C#",
-          "Status": 2
+          "Status": 3
         },
         {
           "ModuleId": 3,
           "ModuleName": "Perform Basic String Formatting in C#",
-          "Status": 1
+          "Status": 3
         },
         {
           "ModuleId": 4,
           "ModuleName": "Perform Basic Operations on Numbers in C#",
-          "Status": 1
+          "Status": 2
         },
         {
           "ModuleId": 5,

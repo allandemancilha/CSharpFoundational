@@ -1,4 +1,5 @@
 ﻿using ConsoleApplicationFoundational.Enums;
+using System.Collections.Generic;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApplicationFoundational.Courses
@@ -8,7 +9,7 @@ namespace ConsoleApplicationFoundational.Courses
 
         protected override void SetCourseId()
         {
-            CourseId = Convert.ToInt32(CoursesEnum.WriteYourFirstCode);  
+            CourseId = Convert.ToInt32(CoursesEnum.WriteYourFirstCode);
         }
 
         protected override void PrintCourseName()
@@ -28,6 +29,9 @@ namespace ConsoleApplicationFoundational.Courses
                     break;
                 case 3:
                     ExecuteModule3();
+                    break;
+                case 4:
+                    ExecuteModule4();
                     break;
                 default:
                     Console.WriteLine("Module Not Implemented.");
@@ -54,12 +58,12 @@ namespace ConsoleApplicationFoundational.Courses
             // 3) .  : O . Possui o Nome Técnico de Operador de Acesso a Membro
         }
 
-         // Módulo 2 - Store And Retrieve Data Using Literal And Variable Values In C#
+        // Módulo 2 - Store And Retrieve Data Using Literal And Variable Values In C#
         private void ExecuteModule2()
         {
             // Caractere Literal
             Console.WriteLine('C');
-            
+
             // Cadeia de Caractere Literal
             // Console.WriteLine('Hello World!');
 
@@ -194,6 +198,107 @@ namespace ConsoleApplicationFoundational.Courses
                                   c:\Exercise\{projectName}\data.txt");
             Console.WriteLine(@$"View English Output:
                                   c:\Exercise\{projectName}\data.txt");
+        }
+
+        private void ExecuteModule4()
+        {
+            // Sobrecarga de Operador: Quando o Mesmo Símbolo é Utilizado Mais de 1x Para Operações Distintas.
+            // Se o Operador + Estiver Entre os Dois Valores Inteiros 1 + 2, o Compilador Verifica o Tipo da Variável e Realiza a Operação Desejada.
+            int firstNumber = 12;
+            int secondNumber = 7;
+            Console.WriteLine(firstNumber + secondNumber);
+
+            // Quando o Operador + é Utilizado Entre Diferentes Tipos de Dados, o Compilador Entende 
+            // que a Operação Realizada é uma Concatenação, Assim Convertendo Implicitamente o Tipo Int em String
+            string firstName = "Bob";
+            int widgetsSold = 7;
+            Console.WriteLine(firstName + " Sold " + widgetsSold + 7 + " Widgets.");
+
+            // 1) ( ): Operador de Ordem de Operações - Informa Explicitamente ao Compilador a Ordem de Execução da Operação.
+            Console.WriteLine(firstName + " Sold " + (widgetsSold + 7) + " Widgets.");
+
+            int sum = 7 + 5;
+            int difference = 7 - 5;
+            int product = 7 * 5;
+            int quotient = 7 / 5;
+
+            Console.WriteLine("Sum        (7 + 5) = " + sum);
+            Console.WriteLine("Difference (7 - 5) = " + difference);
+            Console.WriteLine("Product    (7 * 5) = " + product);
+            Console.WriteLine("Quotient   (7 / 5) = " + quotient);
+
+            // Para Obter Valores Decimais de uma Divisão ao Menos um dos Números.
+            decimal decimalQuotient1 = 7.0m / 5; 
+            Console.WriteLine($"1 - Decimal Quotient    (7.0m / 5int) = {decimalQuotient1}");
+            decimal decimalQuotient2 = 7.0m / 5.0m;
+            Console.WriteLine($"2 - Decimal Quotient    (7.0m / 5.0m) = {decimalQuotient2}");
+            decimal decimalQuotient3 = 7 / 5;
+            Console.WriteLine($"3 - Decimal Quotient          (7 / 5) = {decimalQuotient3}");
+            // 2) ( ): Operador de Conversão - Informa ao Compilador a Tratar Temporariamente o Tipo Dados Convertido Como um Tipo Diferente.
+            decimal decimalQuotient4 = (decimal)7 / 5;
+            Console.WriteLine($"4 - Decimal Quotient ((decimal)7 / 5) = {decimalQuotient4}");
+
+
+            Console.WriteLine($"Modulus Of (200 / 5) = {200 % 5}");
+            Console.WriteLine($"Modulus Of (  7 / 5) = {7 % 5}");
+
+            // C# Segue a Ordem PEMDAS Para Operações Aritméticas
+            int value1 = 3 + 4 * 5;
+            int value2 = (3 + 4) * 5;
+            Console.WriteLine($"3 + 4 * 5 = {value1}");
+            Console.WriteLine($"(3 + 4) * 5 = {value2}");
+
+            // +=: Atribuição de Adição
+            int value3 = 0;      // Valor Atual => 0.
+            Console.WriteLine($"int value3 = 0 => {value3}");
+            value3 = value3 + 5; // Valor Atual => 5.
+            Console.WriteLine($"value3 = value3 + 5 => {value3}");
+            value3 += 5;         // Valor Atual => 10.
+            Console.WriteLine($"value3 += 5 => {value3}");
+
+            // ++ / --
+            int value4 = 0;
+            value4 = value4 + 1;
+            Console.WriteLine(" int value4 = 0;\n value4 = value4 + 1; (First Increment) = " + value4);
+
+            value4 += 1;
+            Console.WriteLine(" value4 += 1; (Second Increment) = " + value4);
+
+         
+            Console.WriteLine(" value4++; (Third Increment) = " + value4);
+
+            value4 = value4 - 1;
+            Console.WriteLine(" value4 = value4 - 1; (First Decrement) = " + value4);
+
+            value4 -= 1;
+            Console.WriteLine(" value4 -= 1; (Second Decrement) = " + value4);
+
+            value4--;
+            Console.WriteLine(" value4--; (Third Decrement) = " + value4);
+
+            // Incremento/Decremento - Antes e Depois
+            int value5 = 1;
+            value5++;
+            Console.WriteLine("First: " + value5);
+            // Recupera o Valor => Exibe o Valor => Incrementa o Valor
+            Console.WriteLine($"Second: {value5++}");
+            Console.WriteLine("Third: " + value5);
+            // Incrementa o Valor => Recupera o Valor => Exibe o Valor
+            Console.WriteLine("Fourth:" + ++value5);
+
+            int value6 = 1;
+            while (value6 < 131072)
+            {
+                // Atribuição de Multiplicação
+                value6 *= 2;
+                Console.WriteLine(value6);  
+            }
+
+            int fahrenheitTemperature = 94;
+            decimal celsiusTemperature = (fahrenheitTemperature - 32) * (5m / 9);
+
+            Console.WriteLine($"The Temperature is {celsiusTemperature} Celsius.");
+            Console.WriteLine($"Windows"+ 1 + 1 );
         }
     }
 }

@@ -23,12 +23,12 @@
         {
           "ModuleId": 4,
           "ModuleName": "Perform Basic Operations on Numbers in C#",
-          "Status": 2
+          "Status": 3
         },
         {
           "ModuleId": 5,
           "ModuleName": "Guided Project - Calculate and Print Student Grades",
-          "Status": 1
+          "Status": 2
         },
         {
           "ModuleId": 6,

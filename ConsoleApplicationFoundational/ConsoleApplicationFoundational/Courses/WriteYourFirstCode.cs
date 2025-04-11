@@ -42,13 +42,10 @@ namespace ConsoleApplicationFoundational.Courses
         //  Módulo 1 - Write Your First C# Code
         private void ExecuteModule1()
         {
-            Console.Write("Hello, World!");
-            Console.WriteLine("");
-
             Console.Write("Congratulations!");
             Console.Write("You wrote your first lines of code.");
 
-            Console.WriteLine("");
+            Console.WriteLine("----------------------------------");
 
             Console.WriteLine("Congratulations!");
             Console.WriteLine("You wrote your first lines of code.");
@@ -65,7 +62,7 @@ namespace ConsoleApplicationFoundational.Courses
             Console.WriteLine('C');
 
             // Cadeia de Caractere Literal
-            // Console.WriteLine('Hello World!');
+            Console.WriteLine("Hello World!");
 
             // Literais Inteiro
             Console.WriteLine(123);
@@ -101,7 +98,6 @@ namespace ConsoleApplicationFoundational.Courses
             // 4) private string _firstName; (Válido)
             // 5) string strFirstName; (Não Segue a Covenção)
             // 6) string FirstName; (Não Segue a Covenção)
-
 
             string firstName;
             // = Operador de Atribuição
@@ -162,7 +158,7 @@ namespace ConsoleApplicationFoundational.Courses
             Console.WriteLine("c:\\source\\repos");
 
             /*
-             * Cadeia de Caractere Literal Textual (@) 
+             * Cadeia de Caractere Literal Verbatim (@) 
              * Mantém os Whitespace e \ Sem a Necessidade de Utilizar \ Para 
              * Escapar os Caracteres
              */
